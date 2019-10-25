@@ -1,6 +1,6 @@
 package pages;
 
-import base.CommonAPI;
+import api.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
