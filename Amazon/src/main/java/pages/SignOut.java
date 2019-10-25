@@ -7,9 +7,9 @@ public class SignOut extends CommonAPI {
     HomePage homePage= new HomePage();
     public void validateSignOut(){
         homePage.signIn();
-        loginPage.validateLoginField("nusratsultana1995@gmail.com");
+        loginPage.validateLoginField("username");
         loginPage.continueButton();
-        loginPage.validatePasswordField("Bangladesh11");
+        loginPage.validatePasswordField("password");
         loginPage.clickOnSignInButton();
         clickOnElementByXpath("//a[@id='nav-link-accountList']");
         clickOnElementByXpath("//a[@id='nav-item-signout']");

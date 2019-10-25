@@ -9,9 +9,9 @@ public class LoginTestCases extends LoginPage {
     @Test
     public void testOnlogIn(){
         homePage.signIn();
-        validateLoginField("nusratsultana1995@gmail.com");
+        validateLoginField("username");
         continueButton();
-        validatePasswordField("Bangladesh11");
+        validatePasswordField("password");
         clickOnSignInButton();
     }
 }
